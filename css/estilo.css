@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
 :root{
     --background: linear-gradient(135deg, #667eea7e 0%, #746ba298 100%);
     --color-primary: #000002;
@@ -8,7 +7,8 @@
 }
 
 body {
-    font-family: 'Mate SC', serif;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
     color: white;
     font-size: 2.5rem;
     margin-bottom: 35px;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 /*----HERO----*/
@@ -168,7 +168,6 @@ nav .start-proyectos, a:nth-child(4):hover~.animation {
 }
 
 
-
 .hero__container {
     display:flex;
     justify-content: space-evenly;
@@ -179,8 +178,9 @@ nav .start-proyectos, a:nth-child(4):hover~.animation {
 
 .hero__texts {
     width: 80%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     color: white;
+    
 }
 
 .hero__title {
@@ -192,8 +192,8 @@ nav .start-proyectos, a:nth-child(4):hover~.animation {
     height: 250px;
     float: right;
     padding-top: 250px;
-
 }
+
 
 .hero__subtitle {
     font-size: 2rem;
@@ -230,9 +230,11 @@ a.presentation__cte {
 }
 
 .presentation__picture {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
+    border: 5px solid ;
+    border-color: red;
     margin-bottom: 10px;
     object-fit: cover;
     object-position: top;
