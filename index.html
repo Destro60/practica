@@ -8,6 +8,7 @@
         <!-- CSS MAIN -->
         <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="https://code.jquery.com/jquery-3.6.0.min.js">
     </head>
     <body> 
 
@@ -15,14 +16,26 @@
 
         <header id=inicio class="hero">
             <div class="container">
-                <nav class="nav">
-                    
+                <nav class="nav invisible">
                     <a href="sobremi.html" class="nav__items">Sobre mi</a>
                     <a href="misskills.html" class="nav__items">Mis Habilidades</a>
-                    <a href="proyectos.html" class="nav__items">Proyectos</a>
+                    <a href="proyectos copy.html" class="nav__items">Proyectos</a>
                     <a href="contacto.html" class="nav__items">Contacto</a>
                     <div class="animation start-home"></div> 
                 </nav>
+
+                <!--navbar-->
+
+                <img class="hamburguer" src="project/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion visible ">
+                <a href="sobremi.html">Sobre mi</a>
+                <a href="misskills.html">Mis Habilidades</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="contacto.html">Contacto</a>
+             </nav> 
+             <!---->
+
+            
                 <img class=nyt src="project/portfolio.svg" alt="">
                 <section class="hero__container">
                     <div  class="hero__texts">
@@ -32,11 +45,12 @@
                     </div>
                 </section>
             </div>
-            <div id=sobremi class="hero__wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C177.20,171.20 308.13,8.39 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+            <div id=sobremi class="hero__wave invisible" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C177.20,171.20 308.13,8.39 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
                 
     
             </div>
         </header>
+        <script src="js/menu.js"></script>
         
         <script src="https://kit.fontawesome.com/fb9bdfa3d1.js" crossorigin="anonymous">
         </script>
