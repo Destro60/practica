@@ -151,6 +151,10 @@ nav .start-proyectos, a:nth-child(4):hover~.animation {
     visibility: hidden;
 }
 
+.hamburguer.invisible{
+    visibility: hidden;
+}
+
 
 .ul--footer {
     display: flex;
@@ -491,6 +495,10 @@ a.presentation__cte {
 .visible {
     visibility: visible;
 }
+
+.hamburguer.invisible {
+    visibility: visible;
+}
 .hamburguer{
     position: fixed;
     top: 30px;
@@ -500,7 +508,7 @@ a.presentation__cte {
     height: 40px;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
 
 .menu-navegacion{
@@ -509,7 +517,7 @@ a.presentation__cte {
     width: 50vw;
     height: 100%;
     background-image: linear-gradient(to top, #f80000 0%, #129e05 100%);
-    background-image: linear-gradient(135deg, #002fff 0%, #000000 100%);
+    background-image: linear-gradient(135deg, #ff0000 0%, #000000 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
